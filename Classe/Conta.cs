@@ -21,5 +21,10 @@ namespace Classe
         {
 
         }
+        public void Transferencia(double valorTransferencia, Conta outroObjeto)
+        {
+            saldo =  saldo - valorTransferencia;
+            outroObjeto.saldo += valorTransferencia;
+        }
     }
 }

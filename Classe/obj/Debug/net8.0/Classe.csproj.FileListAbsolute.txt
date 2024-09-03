@@ -12,3 +12,4 @@ C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\Classe\obj\Debug\net8.
 C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\Classe\obj\Debug\net8.0\Classe.pdb
 C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\Classe\obj\Debug\net8.0\Classe.genruntimeconfig.cache
 C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\Classe\obj\Debug\net8.0\ref\Classe.dll
+C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\Classe\obj\Debug\net8.0\Classe.sourcelink.json
