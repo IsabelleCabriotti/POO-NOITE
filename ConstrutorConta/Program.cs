@@ -12,3 +12,4 @@ conta3.MostrarAtributos();
 
 Conta conta4 = new Conta(40, "Isa", 400);
 conta4.MostrarAtributos();
+System.Console.WriteLine("Quantidade de instâncias " + Conta.Contador);

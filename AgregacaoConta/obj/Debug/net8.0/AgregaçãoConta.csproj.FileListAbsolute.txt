@@ -1,0 +1,5 @@
+C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\AgregaçãoConta\obj\Debug\net8.0\AgregaçãoConta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\AgregaçãoConta\obj\Debug\net8.0\AgregaçãoConta.AssemblyInfoInputs.cache
+C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\AgregaçãoConta\obj\Debug\net8.0\AgregaçãoConta.AssemblyInfo.cs
+C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\AgregaçãoConta\obj\Debug\net8.0\AgregaçãoConta.csproj.CoreCompileInputs.cache
+C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\AgregaçãoConta\obj\Debug\net8.0\AgregaçãoConta.sourcelink.json

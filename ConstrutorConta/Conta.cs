@@ -11,26 +11,36 @@ namespace ConstrutorConta
         private int numero;
         private string titular;
         private double saldo;
+        private  static int contador;
+
+        public static int Contador
+        {
+            get { return contador; }
+        }
 
         //declaração dos metodos
         public Conta()
         {
+            contador ++;
             //Construtor padrão, não possui nada dentro
         }
         public Conta(int numero)
         {
             this.numero = numero;
+            contador ++;
         }
         public Conta(int numero, string titular)
         {
             this.numero = numero;
             this.titular = titular;
+            contador ++;
         }
         public Conta(int numero, string titular, double saldo)
         {
             this.numero = numero;
             this.titular = titular;
             this.saldo = saldo;
+            contador ++;
         }
         public void MostrarAtributos()
         {
