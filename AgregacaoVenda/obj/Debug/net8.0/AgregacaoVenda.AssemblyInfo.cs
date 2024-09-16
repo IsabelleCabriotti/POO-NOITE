@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgregacaoVenda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5709358f506cd95f9d3a29d593da2acb4f77acb1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8a47425503410f2f297d0e7fa00d66a807f4895")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgregacaoVenda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgregacaoVenda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
