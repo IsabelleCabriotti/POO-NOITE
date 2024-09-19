@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace HerancaCliente
 {
-    public class Cliente
+    public class Cliente//super classe
     {
         protected int codigo; //fica visivel para que a classe ClienteFisico visualize o codigo e nome, com private não é possivel essa visualização
         protected string nome;

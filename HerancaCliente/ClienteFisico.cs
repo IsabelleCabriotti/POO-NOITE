@@ -24,13 +24,14 @@ namespace HerancaCliente
             Cpf = cpf;
             Rg = rg;
         }
-        public ClienteFisico() : base()
+        public ClienteFisico() : base()//chama o construtor
         {
             
         }
-        /*public void Mostrar()
+        public void Mostrar()
         {
-
-        }*/
+            base.Mostrar();//apresenta o codigo e nome pois chama o metodo da classe base
+            System.Console.WriteLine("Rg: " + Rg + "\tCpf: " + Cpf);
+        }
     }
 }
