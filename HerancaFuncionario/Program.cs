@@ -16,3 +16,12 @@ Console.WriteLine($"Bonificação: {g.Bonificacao():c}");
 Diretor d = new Diretor(4, "Isabelle", 20000);
 d.Mostrar();
 Console.WriteLine($"Bonificação: {d.Bonificacao():c}");
+
+GerenciarBonificacao gerenciador = new GerenciarBonificacao();
+
+gerenciador.TotalizadorBonificacao(f);
+gerenciador.TotalizadorBonificacao(s);
+gerenciador.TotalizadorBonificacao(g);
+gerenciador.TotalizadorBonificacao(d);
+
+Console.WriteLine($"Total de bonificação: {gerenciador.GettotalBonificacao():c}");
