@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Classe")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("InterfaceAutenticavel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c5a9581ef02540ef08343fb40b0e5576b6dc44b")]
-[assembly: System.Reflection.AssemblyProductAttribute("Classe")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Classe")]
+[assembly: System.Reflection.AssemblyProductAttribute("InterfaceAutenticavel")]
+[assembly: System.Reflection.AssemblyTitleAttribute("InterfaceAutenticavel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
