@@ -10,15 +10,15 @@ namespace AbstrataFuncionario
         public int Codigo { get; set; }
         public string Nome { get; set; }
         public List<Funcionario> VetF { get; set; }
-
         public Departamento(int codigo, string nome)
         {
             Codigo = codigo;
             Nome = nome;
+            VetF = new List<Funcionario>();
         }
         public void MostrarAtributos()
         {
-            System.Console.WriteLine("Código: " + Codigo + "\tNome: " + Nome);
+            Console.WriteLine("Código: " + Codigo + "\tNome: " + Nome);
         }
         public void Admissao(Funcionario f)
         {
@@ -48,6 +48,14 @@ namespace AbstrataFuncionario
                 folha += f.CalcularSalario(diasUteis);
             }
             return folha;
+        }
+        public void CalcularDependente()
+        {
+            MostrarAtributos();
+            foreach(Funcionario f in VetF)
+            {
+                Console.WriteLine($"{f.Nome}: {f.TotalDependentes()}");
+            }
         }
     }
 }

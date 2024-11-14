@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AbstrataFuncionario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+978af7bc69c0ac02d4a44998b2b7d857aed455b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acb321558af69bceaa2703e6e3d22e3f19e4e27a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AbstrataFuncionario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AbstrataFuncionario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
