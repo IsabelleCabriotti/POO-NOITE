@@ -1,0 +1,5 @@
+C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\VendaPagamento\obj\Debug\net8.0\TrabalhoVenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\VendaPagamento\obj\Debug\net8.0\TrabalhoVenda.AssemblyInfoInputs.cache
+C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\VendaPagamento\obj\Debug\net8.0\TrabalhoVenda.AssemblyInfo.cs
+C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\VendaPagamento\obj\Debug\net8.0\TrabalhoVenda.csproj.CoreCompileInputs.cache
+C:\Users\isabe\OneDrive\Área de Trabalho\FACUL\POO NOITE\VendaPagamento\obj\Debug\net8.0\TrabalhoVenda.sourcelink.json
