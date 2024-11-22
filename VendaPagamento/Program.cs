@@ -29,12 +29,14 @@ class Program
                 case "1":
                     Console.WriteLine("Pagamento realizado em espécie.");
                     Console.Write("Informe o valor pago: ");
-                    ValorPago = Convert.ToDouble(Console.ReadLine());
+                    double valorPago = Convert.ToDouble(Console.ReadLine());
+                    double totalComDesconto = venda.TotalComDesconto();
 
-                    if (ValorPago >= TotalComDesconto())
+                    if (valorPago >= totalComDesconto)
                     {
-                        Troco = ValorPago - TotalComDesconto();
-                        Console.WriteLine($"Pagamento realizado com sucesso! Troco: {Troco:C}");
+                        double troco = valorPago - totalComDesconto;
+                        Especie pagamentoEspecie = new Especie(DateTime.Now, venda.Total, valorPago, troco);
+                        Console.WriteLine($"Pagamento realizado com sucesso! Troco: {troco:C}");
                     }
                     else
                     {
@@ -49,12 +51,10 @@ class Program
                     Console.WriteLine($"Situação: {pagamentoCheque.Situacao}");
                     break;
                 case "3":
-                    // Pagamento com cartão
+                    Cartao pagamentoCartao = new Cartao(DateTime.Now, venda.Total, "Cartão Mastercard", 1);
                     Console.WriteLine("Pagamento realizado com cartão.");
-                    dadosTransacao = DateTime.Now;
-                    resultadoTransacao = "Aprovado";
-                    Console.WriteLine($"Dados da Transação: {dadosTransacao}");
-                    Console.WriteLine($"Resultado da transação: {resultadoTransacao}");
+                    Console.WriteLine($"Dados da Transação: {pagamentoCartao.DadosTransacao}");
+                    Console.WriteLine($"Resultado da transação: {pagamentoCartao.ResultadoTransacao}");
                     break;
                 default:
                     Console.WriteLine("Opção inválida. Pagamento não realizado.");

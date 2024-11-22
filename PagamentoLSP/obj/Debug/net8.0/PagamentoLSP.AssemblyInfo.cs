@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PagamentoLSP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+318539eed3cb203a46a0916ae2657a4c86aad295")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7f68fa0a1c877b37e0119048b7722c5e9d78697")]
 [assembly: System.Reflection.AssemblyProductAttribute("PagamentoLSP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PagamentoLSP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
